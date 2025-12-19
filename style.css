@@ -1,0 +1,35 @@
+
+.background{
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+  background-color: rgba(0,0,0,0.55);
+  height: 100%;
+}
+.feature-icon-small {
+  width: 4rem;
+  height: 4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:600px) {
+  .images{
+    flex-direction: column;
+  }
+}
+ body {
+      background-color: black;
+    }
+    .pricing-card {
+      background-color: rgb(49, 49, 49);
+      border-radius: 30px;
+      color: aliceblue;
+    }
+    .pricing-card button {
+      border-radius: 30px;
+    }
